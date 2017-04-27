@@ -1,0 +1,36 @@
+{
+  "name": "api-basic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.4.0",
+    "morgan": "~1.8.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.1.5",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "description": "/api/users\tGET\tGET all the users /api/users:id\tGET\tGET a single user /api/users\tPOST\tcreate a user /api/users/:id\tDELETE \tDelete a user /api/users/:id\tPUT\tUpdate a user with new info",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fearzen3/api-basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fearzen3/api-basic/issues"
+  },
+  "homepage": "https://github.com/fearzen3/api-basic#readme"
+}

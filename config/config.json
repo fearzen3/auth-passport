@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "ivan",
+    "password": "Mavericks.23",
+    "database": "apibasic",
+    "port" : "5432",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
